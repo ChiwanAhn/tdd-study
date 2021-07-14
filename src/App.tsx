@@ -4,7 +4,7 @@ import { LoginForm } from "./components/LoginForm";
 function App() {
   return (
     <div>
-      <LoginForm></LoginForm>
+      <LoginForm onSubmit={(c) => console.log(c)}></LoginForm>
     </div>
   );
 }
